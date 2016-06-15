@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="1dp"
+    app:cardUseCompatPadding="true"
+    app:contentPadding="16dp"
+    android:id="@+id/view_row_container">
+
+    <android.support.v7.widget.FitWindowsLinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/view_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="ABCDEFGHIJKLAMMOASJFBKA JBFOUABROGLJNADLLKNLJNSFOJNSJLKFN"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/view_maker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sayan Tapadar"
+            android:textSize="18sp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:id="@+id/view_addressed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="kgmomfognsljnljsnl"
+            android:layout_marginTop="8dp"/>
+    </android.support.v7.widget.FitWindowsLinearLayout>
+</android.support.v7.widget.CardView>
